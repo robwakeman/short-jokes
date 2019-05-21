@@ -25,10 +25,11 @@
   text-align: center;
 }
 
-p {
-  margin: 0 0 0.3rem;
+.joke__question {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
-.jokes li > p:nth-child(odd) {
-  font-weight: bold;
+.joke__answer {
+  margin: 0 0 3rem;
 }

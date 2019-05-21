@@ -9,9 +9,9 @@ function Jokes(props) {
   const jokes = props.jokes;
 
   const jokeList = jokes.map((joke, index) => (
-    <li style={styles} key={index}>
-      <p>{joke.question}</p>
-      <p>{joke.answer}</p>
+    <li className='joke' style={styles} key={index}>
+      <p className='joke__question'>{joke.question}</p>
+      <p className='joke__answer'>{joke.answer}</p>
     </li>
   ));
 
