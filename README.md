@@ -1,6 +1,6 @@
 ## About
 
-Trying out a simple app in React, created by [Create React App](https://github.com/facebook/create-react-app).
+Trying out a simple app in React, created with [Create React App](https://github.com/facebook/create-react-app).
 
 - Experimenting with CSS methods:
   - Global stylesheet (index.css)
