@@ -7,7 +7,10 @@ import Joke from './components/Joke';
 function App() {
   return (
     <div>
-      <h1>Short jokes</h1>
+      <header className="App-header">
+        <h1>Short jokes</h1>
+        <img src={logo} className="App-logo" alt="logo" />
+      </header>
       <Joke
         joke={[
           {
