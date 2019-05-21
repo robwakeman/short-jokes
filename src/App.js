@@ -13,12 +13,20 @@ function App() {
       <Jokes
         jokes={[
           {
+            question: `What do you call a pony with a cough?`,
+            answer: `A little horse.`,
+          },
+          {
             question: `Helvetica and Times New Roman walk into a bar.`,
             answer: `The bartender told them "We don't serve your type."`,
           },
           {
             question: `Did you hear about the actor who fell through the floorboards?`,
             answer: `He was just going through a stage.`,
+          },
+          {
+            question: `What do you call a woman with one leg?`,
+            answer: `Eileen.`,
           },
         ]}
       />
