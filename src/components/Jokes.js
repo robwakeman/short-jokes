@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Joke(props) {
+function Jokes(props) {
   const styles = {
     // fontStyle: 'italic',
     marginBottom: '2rem',
@@ -16,10 +16,10 @@ function Joke(props) {
   ));
 
   return (
-    <ul className="jokes" style={{ listStyleType: 'none', margin: '3rem 0', padding: 0 }}>
+    <ul className="jokes" style={{ listStyleType: 'none', padding: '0 1rem' }}>
       {jokeList}
     </ul>
   );
 }
 
-export default Joke;
+export default Jokes;

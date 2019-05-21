@@ -1,16 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Joke from './components/Joke';
+import Jokes from './components/Jokes';
 
 function App() {
   return (
     <div>
       <header className="App-header">
-        <h1>Short jokes</h1>
+        <h1>Short Jokes</h1>
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <Joke
+      <Jokes
         jokes={[
           {
             question: `Helvetica and Times New Roman walk into a bar.`,
