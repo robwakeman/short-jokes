@@ -2,23 +2,24 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Joke from './components/Joke';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Short jokes</h1>
+      <Joke
+        joke={[
+          {
+            question: 'Helvetica and Times New Roman walk into a bar.',
+            answer: "The bartender told them -We don't serve your type-",
+          },
+          {
+            question: 'Did you hear about the actor who fell through the floorboards?',
+            answer: 'He was just going through a stage.',
+          },
+        ]}
+      />
     </div>
   );
 }
