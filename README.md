@@ -8,9 +8,9 @@ Trying out a simple app in React, created with [Create React App](https://github
   - Inline styling with styles written inline (see Jokes.js)
   - Inline styling with styles passed inline from a styles object in the function (see Jokes.js)
 
-[Demo](https://qf605.codesandbox.io/)
+[Demo (CodeSandBox)](https://qf605.codesandbox.io/)
 
-(Note: this code and file structure differs slightly from the GitHub repo here to allow rendering of the logo image)
+(Note: the code and file structure in this CodeSandbox demo differ slightly from the GitHub repo here. This is to allow rendering of the logo image.)
 
 ---
 
