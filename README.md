@@ -10,8 +10,6 @@ Trying out a simple app in React, created with [Create React App](https://github
 
 [Demo](http://dev.robwakeman.com/short-jokes/)
 
-(Note: the code and file structure in this CodeSandbox demo differ slightly from the GitHub repo here. This is to allow rendering of the logo image.)
-
 ---
 
 The following notes come from [Create React App](https://github.com/facebook/create-react-app):
